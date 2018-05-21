@@ -14,7 +14,7 @@ namespace Arena_Basic
 
     class PlayerBaseModifiers : CombatEngine
     {
-
+       // Sets Default Player Base Modifiers
         public double Health = 50;
         public float Strength = 1f;
         public float HealingSpeed = 1f;
@@ -22,6 +22,7 @@ namespace Arena_Basic
         public String Player;
 
 
+        // Case Table that sets variengs of Player Types
         public void PlayerBuffs()
         {
             PlayerName PlayerName = (PlayerName) (1);
