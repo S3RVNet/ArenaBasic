@@ -20,6 +20,8 @@ namespace Arena_Basic
 
         public String PlayerClass;
         public String Enemy;
+    
+       
 
 
         public FmCAS()
@@ -32,7 +34,13 @@ namespace Arena_Basic
             Console.WriteLine("You have selected the " + PlayerClass, " Class.");
         }
 
-        public String PlayerName;
+        void EnemyStats()
+        {
+           
+
+        }
+
+    public String PlayerName;
 
         private void lblCASWarrior_Click(object sender, EventArgs e)
         {
@@ -58,8 +66,11 @@ namespace Arena_Basic
 
         private void lbxCASenemy_SelectedValueChanged(object sender, EventArgs e)
         {
+            EnemybaseModifiers es = new EnemybaseModifiers();
             Enemy = lbxCASenemy.Text;
             Console.WriteLine("Ahh! " + Enemy + " A worthy opponent i'm sure!");
+            es.EnemyStats();
+
         }
 
         private void btnCASsave_Click(object sender, EventArgs e)
@@ -93,6 +104,9 @@ namespace Arena_Basic
             FmMain MainInstance = new FmMain();
             this.Enabled = false;
         }
+      
+
+    
     }
 }
  

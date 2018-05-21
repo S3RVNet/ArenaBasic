@@ -1,36 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Arena_Basic
 {
     //Lists all available enemies
-    public enum CurrentEnemy { VoidKnight, Prince, Overlord, Brother, None}
+    public enum CurrentEnemy
+    {
+        VoidKnight,
+        Prince,
+        Overlord,
+        Brother,
+        None
+    }
 
     public class EnemybaseModifiers : CombatEngine
     {
 
-
+        
         public string EnemyName;
         public double Enemyhealth = 100;
         public float EnemyStrength = 1f;
         public float EnemyHealingSpeed = 1f;
         public int EnemyArmour = 50;
 
+
         /// /////////////CUSTOM CONSTRUCTORS FOR NPCs
 
-            //Sets the Data Config for a selected enemy
+        //Sets the Data Config for a selected enemy
         public void EnemyMultiplier()
         {
-            CurrentEnemy enemy = (CurrentEnemy)(5);
+            CurrentEnemy enemy = (CurrentEnemy) (5);
 
             switch (enemy)
             {
                 case CurrentEnemy.VoidKnight:
                     EnemyName = "Void Knight";
-                    Enemyhealth = Enemyhealth *2.5f;
+                    Enemyhealth = Enemyhealth * 2.5f;
                     EnemyStrength = EnemyStrength * 3f;
                     EnemyArmour = EnemyArmour + 30;
 
@@ -62,8 +71,28 @@ namespace Arena_Basic
 
 
 
-            }
+
             }
         }
+
+        public void EnemyStats()
+        {
+            FmCAS CAS = new FmCAS();
+
+            
+
+
+                Console.WriteLine("Enemy Name :  " + EnemyName);
+                Console.WriteLine("Enemy Health : " + Enemyhealth.ToString());
+                Console.WriteLine("Enemy Strength : " + EnemyStrength.ToString());
+                Console.WriteLine("Enemy Armour : " + EnemyArmour.ToString());
+
+
+
+            }
+        }
+
+     
     }
+
 
