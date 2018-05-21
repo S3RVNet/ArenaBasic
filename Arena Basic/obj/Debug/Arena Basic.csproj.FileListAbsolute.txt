@@ -1,0 +1,12 @@
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\bin\Debug\Arena Basic.exe.config
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\bin\Debug\Arena Basic.exe
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\bin\Debug\Arena Basic.pdb
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena Basic.csprojAssemblyReference.cache
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena_Basic.FmCAS.resources
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena_Basic.Menu.resources
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena_Basic.FmMain.resources
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena_Basic.Properties.Resources.resources
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena Basic.csproj.GenerateResource.cache
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena Basic.csproj.CoreCompileInputs.cache
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena Basic.exe
+C:\Users\Natha\source\repos\Arena Basic\Arena Basic\obj\Debug\Arena Basic.pdb
