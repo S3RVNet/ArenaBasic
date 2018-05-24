@@ -22,7 +22,7 @@ namespace Arena_Basic
         public String Player;
 
 
-        // Case Table that sets variengs of Player Types
+        // Case Table that sets modifiers of Player Types
         public void PlayerBuffs()
         {
             PlayerName PlayerName = (PlayerName) (1);
